@@ -31,7 +31,7 @@ function getThumbnail(s) {
         } catch (error) {
             setTimeout(function() {
                 getThumbnail(s);
-            }, 5000)
+            }, 3000)
         }
     }
 }
